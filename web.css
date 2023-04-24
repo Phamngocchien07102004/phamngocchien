@@ -1,0 +1,106 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+    .banner{
+        background-color: rgb(230, 13, 187);
+        border: 1px rebeccapurple solid;
+        padding: 10px 10px 10px 10px;
+        margin: 0px auto;
+        text-align: center;
+        width: 98%;
+    }
+    .name_banner{font-size: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    width: 98%;}
+    .h1{
+        color: rgb(252, 252, 252);
+        background-color: rgba(236, 10, 10, 0.968);
+        border:1px rgb(255, 115, 0) dashed ;
+        width: 750px;
+        height: 50px;
+        margin: 0px auto;
+        padding: 20px 10px 20px 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .root li{
+        list-style: none;
+        float: left;
+        position: relative;
+        display: block;
+    }
+    .root>li>a{
+        text-decoration: none;
+       color: rgb(0, 249, 232);
+        padding: 0px 15px 0px 15px;
+        display: block;
+        line-height: 40px;
+    }
+    .menu_web{
+        background-color:rgba(255, 11, 161, 0.929);
+        width: 98%; 
+        height: 40px;
+        margin: 0px auto;
+       
+    }
+    .root>li>a:hover
+    {
+        background-color: #ffffff;
+        color: rgb(138, 9, 230);
+        transform: ease-in 0.35s;
+    }
+    .submenu{
+        width: 200px;
+        background-color: rgb(200, 0, 255);
+        display: none;
+        min-height: 80px;
+        position: absolute;
+    }
+    .submenu li{list-style: none;}
+    .submenu li a{
+        text-transform: none;
+        text-decoration: none;
+        color: rgb(244, 225, 13);
+        display: block;
+        border: 0px solid black;
+        line-height: 40px;
+        text-indent: 15px;
+
+    }
+    .root li:hover .submenu{
+        display: block;
+        background-color: rgb(21, 209, 234);
+        color: orange;
+        transform: ease-in 0.35s;
+    }
+    .submenu li a:hover{
+        background-color: rgb(34, 28, 28);
+        color: white;
+        transform: ease-in 0.35s;
+    }
+    .bocuc{
+        border: 1px solid bisque;
+        width: 98%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .h1 td{ border: 1px solid #ccc;}
+    .sp1 img{width: 50px; height: 40px;
+    align-items: center;}
+    .sp2 img{width: 70px; height: 60px;
+        align-items: center;}
+        .sp3 img{width: 70px; height: 60px;
+            align-items: center;}
+            .sp4 img{width: 70px; height: 60px;
+                align-items: center;}
+    .giacu{color: red; font-size: 18px;}
+    .giaban{color: blue;
+    font-size: 14px; font-weight: bold;}
+    .sp1{text-align: center;}
+    .lichsu{
+        font-size: 30px;
+        font-weight: bold;
+        color: #16ec36;
+    }
